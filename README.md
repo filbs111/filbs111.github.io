@@ -10,7 +10,7 @@ Webgl implementation of fisheye / stereographic projection camera, so can show g
 
 [![Preview](https://imgoat.com/uploads/82be0c5cdc/32460.png)](http://filbs111.github.io/3sphere-explorer)
 
-Universe is the surface of a 3-sphere, which is to 4D space what a globe is to 3D space. The player can fly straight in any direction, and return to their starting point. [Demo](http://filbs111.github.io/3sphere-explorer) &#124; [Code](http://github.com/filbs111/3sphere-explorer)
+Universe is the surface of a 3-sphere, which is to 4D space what a normal sphere is to 3D space. The player can fly straight in any direction, and return to their starting point. [Demo](http://filbs111.github.io/3sphere-explorer) &#124; [Code](http://github.com/filbs111/3sphere-explorer)
 
 ### 3) Spherical portals / reflectors (webgl)
 
