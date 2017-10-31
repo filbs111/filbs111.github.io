@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+## Overview of (some of) [filbs111's github projects](https://github.com/filbs111)
 
-You can use the [editor on GitHub](https://github.com/filbs111/filbs111.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### 1) Wide angle camera (webgl)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[![Preview](https://imgoat.com/uploads/82be0c5cdc/32458.png)](http://filbs111.github.io/webgl-wideanglecamera)
 
-### Markdown
+Webgl implementation of fisheye / stereographic projection camera, so can show greater than 180 degrees field of view than possible with standard rectilinear projection camera, or smaller angles with less perceived distortion. Useful for games because player can be aware of surroundings without control input to look around. [Demo](http://filbs111.github.io/webgl-wideanglecamera) | [Code](http://github.com/filbs111/webgl-wideanglecamera)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### 2) Hyperspace explorer (webgl)
 
-```markdown
-Syntax highlighted code block
+[![Preview](https://imgoat.com/uploads/82be0c5cdc/32460.png)](http://filbs111.github.io/3sphere-explorer)
 
-# Header 1
-## Header 2
-### Header 3
+Universe is the surface of a 3-sphere, which is to 3D space what a globe is to 3D space. The player can fly straight in any direction, and return to their starting point. [Demo](http://filbs111.github.io/3sphere-explorer) | [Code](http://github.com/filbs111/3sphere-explorer)
 
-- Bulleted
-- List
+### 3) Spherical portals / reflectors (webgl)
 
-1. Numbered
-2. List
+[![Preview](https://imgoat.com/uploads/82be0c5cdc/32459.png)](http://filbs111.github.io/webgl-reflections)
 
-**Bold** and _Italic_ and `Code` text
+Drawing mirror sphere in webgl, which can be used as a portal (similar to how planar portals are similar to regular mirrors). Intended to be used with project 2) to link 3-sphere worlds. [Demo](http://filbs111.github.io/webgl-reflections) | [Code](http://github.com/filbs111/webgl-reflections)
 
-[Link](url) and ![Image](src)
-```
+### 4) Precalculated lighting for arbitrary gradient skylight
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Lighting by a skylight with colour gradient, in realtime, using a pregenerated texture, containing the result of lighting by an isotropic skylight, and 3 skylights with gradient aligned with the cartesian axes. AFAIK equivalent to "spherical harmonic" lighting, for the first 4 harmonics. [Demo](http://filbs111.github.io/shadertest) | [Code](http://github.com/filbs111/shadertest)
 
-### Jekyll Themes
+### 5) Rotate and thrust shooter 1
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/filbs111/filbs111.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Older effort at Gravity Force 2 clone using html5 canvas, storing levels like bitmaps. [Demo](http://filbs111.github.io/turn-n-burn/game.html) | [Code](http://github.com/filbs111/turn-n-burn)
 
-### Support or Contact
+### 6) rotate and thrust shooter 2
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Uses box2d and clipper libraries (vector levels).  [Demo](http://filbs111.github.io/box2d-learning) | [Code](http://github.com/filbs111/box2d-learning)
